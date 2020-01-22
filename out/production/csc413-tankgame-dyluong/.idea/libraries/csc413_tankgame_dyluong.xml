@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="csc413-tankgame-dyluong">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jar/csc413-tankgame-dyluong.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

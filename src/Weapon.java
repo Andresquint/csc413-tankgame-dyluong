@@ -21,6 +21,12 @@ public abstract class Weapon extends GameObject implements Collidable{
         hitBox.setLocation(x, y);
     }
 
+    public void update(){
+        if(!show)
+            return;
+        moveForwards();
+        hitBox.setLocation(x,y);
+    }
 
     public void update(int x, int y, int angle) {
         if(this.ShootPressed){
